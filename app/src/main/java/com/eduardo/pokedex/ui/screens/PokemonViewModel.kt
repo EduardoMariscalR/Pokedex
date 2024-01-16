@@ -25,6 +25,7 @@ sealed interface PokemonUiState {
     data class Success(val pokemon: List<PokemonModel>) : PokemonUiState
     data object Error : PokemonUiState
     data object Loading : PokemonUiState
+
 }
 
 class PokemonViewModel(

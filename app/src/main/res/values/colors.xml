@@ -7,4 +7,45 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--Type color-->
+    <color name="type_background_normal">   #FF919AA2</color>
+    <color name="type_background_fighting"> #FFCE416B</color>
+    <color name="type_background_flying">   #FF89AAE3</color>
+    <color name="type_background_poison">   #FFB567CE</color>
+    <color name="type_background_ground">   #FFD97845</color>
+    <color name="type_background_rock">     #FFC5B78C</color>
+    <color name="type_background_bug">      #FF91C12F</color>
+    <color name="type_background_ghost">    #FF5269AD</color>
+    <color name="type_background_steel">    #FF5A8EA2</color>
+    <color name="type_background_fire">     #FFFF9D55</color>
+    <color name="type_background_water">    #FF5090D6</color>
+    <color name="type_background_grass">    #FF63BC5A</color>
+    <color name="type_background_electric"> #FFF4D23C</color>
+    <color name="type_background_psychic">  #FFFA7179</color>
+    <color name="type_background_ice">      #FF73CEC0</color>
+    <color name="type_background_dragon">   #FF0B6DC3</color>
+    <color name="type_background_dark">     #FF5A5465</color>
+    <color name="type_background_fairy">    #FFEC8FE6</color>
+
+    <!--Type color trasparent-->
+    <color name="type_background_normal_transparent">#1A919AA2</color>
+    <color name="type_background_fighting_transparent">#1ACE416B</color>
+    <color name="type_background_flying_transparent">#1A89AAE3</color>
+    <color name="type_background_poison_transparent">#1AB567CE</color>
+    <color name="type_background_ground_transparent">#1AD97845</color>
+    <color name="type_background_rock_transparent">#1AC5B78C</color>
+    <color name="type_background_bug_transparent">#1A91C12F</color>
+    <color name="type_background_ghost_transparent">#1A5269AD</color>
+    <color name="type_background_steel_transparent">#1A5A8EA2</color>
+    <color name="type_background_fire_transparent">#1AFF9D55</color>
+    <color name="type_background_water_transparent">#1A5090D6</color>
+    <color name="type_background_grass_transparent">#1A63BC5A</color>
+    <color name="type_background_electric_transparent">#1AF4D23C</color>
+    <color name="type_background_psychic_transparent">#1AFA7179</color>
+    <color name="type_background_ice_transparent">#1A73CEC0</color>
+    <color name="type_background_dragon_transparent">#1A0B6DC3</color>
+    <color name="type_background_dark_transparent">#1A5A5465</color>
+    <color name="type_background_fairy_transparent">#1AEC8FE6</color>
+
 </resources>
