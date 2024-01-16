@@ -14,19 +14,18 @@ import com.eduardo.pokedex.PokedexPokemonApplication
 import com.eduardo.pokedex.data.PokedexPokemonRepository
 import com.eduardo.pokedex.model.PokemonModel
 import com.eduardo.pokedex.model.Sprites
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import retrofit2.HttpException
 import java.io.IOException
-import kotlin.coroutines.CoroutineContext
 
 sealed interface PokemonUiState {
     data class Success(val pokemon: List<PokemonModel>) : PokemonUiState
-    object Error : PokemonUiState
-    object Loading : PokemonUiState
+    data object Error : PokemonUiState
+    data object Loading : PokemonUiState
+
 }
 
 class PokemonViewModel(

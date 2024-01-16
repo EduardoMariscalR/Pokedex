@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
@@ -53,7 +52,7 @@ fun LoadingScreen(modifier: Modifier = Modifier) {
         trackColor = PokemonBlue,
         strokeWidth = 30.dp,
         strokeCap= StrokeCap.Round,
-        modifier = Modifier
+        modifier = modifier
             .padding(horizontal = 100.dp, vertical = 250.dp),
     )
 //    Image(
