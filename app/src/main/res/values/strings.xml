@@ -6,4 +6,6 @@
     <string name="pokemon_image">Pokemon image</string>
     <string name="pokemon_icon">Pokemon icon</string>
     <string name="placeholder_success">Success</string>
+    <string name="back_button">Back</string>
+    <string name="pokemon_detail">Pokemon detail</string>
 </resources>
